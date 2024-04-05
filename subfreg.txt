@@ -1,6 +1,4 @@
-<?php
-
-$response = '{
+{
   "remarks": "channel ma(Blueenetwork)",
   "log": {
     "access": "",
@@ -153,11 +151,5 @@ $response = '{
       }
     ]
   }
-}';
+}
 
-// تنظیم هدر به عنوان متن ساده
-header("Content-type: text/plain");
-
-// نمایش نتیجه
-echo $response;
-?>
